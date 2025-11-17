@@ -61,66 +61,6 @@ Open your browser and go to: http://localhost:8080
 
 You will see the NBA Zone interface displaying stats for NBA players in the 2024–2025 season
 
-## Project Structure
-
-Nba-Zone/
-
-├─ .idea/
-
-├─ .vscode/
-
-├─ .gitattributes
-
-├─ .gitignore
-
-├─ HELP.md
-
-├─ pom.xml
-
-├─ mvnw / mvnw.cmd
-
-├─ nba_stats_utf8.csv
-
-├─ src
-
-│  └─ main
-
-│     ├─ java
-
-│     │  └─ com.n.nba_zone
-
-│     │     ├─ config/
-
-│     │     ├─ player/
-
-│     │     │  ├─ Player.java
-
-│     │     │  ├─ PlayerController.java
-
-│     │     │  ├─ PlayerRepository.java
-
-│     │     │  └─ PlayerService.java
-
-│     │     └─ NbaZoneApplication.java
-
-│     └─ resources
-
-│        ├─ static/
-
-│        │  ├─ index.html
-
-│        │  ├─ script.js
-
-│        │  └─ styles.css
-
-│        ├─ templates/
-
-│        └─ application.properties
-
-└─ src/test/java/com/n/nba_zone
-
-   └─ NbaZoneApplicationTests.java
-
 
 ## Future Improvements (Ideas)
 
