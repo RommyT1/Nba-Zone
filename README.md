@@ -50,18 +50,18 @@ git clone https://github.com/RommyT1/Nba-Zone.git
 
 cd Nba-Zone
 
-2. Run the Application
+## 2. Run the Application
 
 The application will start on http://localhost:8080 unless changed in application.properties.
 
-3. Usage
+## 3. Usage
 Run the app
 
 Open your browser and go to: http://localhost:8080
 
 You will see the NBA Zone interface displaying stats for NBA players in the 2024–2025 season
 
-Project Structure
+## Project Structure
 css
 Copy code
 Nba-Zone/
@@ -95,7 +95,7 @@ Nba-Zone/
    └─ NbaZoneApplicationTests.java
 
 
-Future Improvements (Ideas)
+## Future Improvements (Ideas)
 
 - Deploy the app online (Render, Railway, etc.)
 
