@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot - NbaZoneApplication",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/nba-zone",
+            "mainClass": "com.nl.nba_zone.NbaZoneApplication",
+            "projectName": "nba-zone",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Zone - Player Statistics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏀 NBA Zone</h1>
+            <p class="subtitle">Fantasy Basketball Player Statistics</p>
+        </header>
+
+        <!-- Team Selection View -->
+        <div id="teamSelectionView" class="view">
+            <div class="view-header">
+                <h2>Select a Team</h2>
+            </div>
+            <div id="loading" class="loading">Loading teams...</div>
+            <div id="error" class="error" style="display: none;"></div>
+            <div id="teamsGrid" class="teams-grid"></div>
+        </div>
+
+        <!-- Players View (hidden initially) -->
+        <div id="playersView" class="view" style="display: none;">
+            <div class="view-header">
+                <button onclick="goBackToTeams()" class="back-btn">← Back to Teams</button>
+                <h2 id="teamTitle">Players</h2>
+            </div>
+            
+            <div class="search-section">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search players in this team..." class="search-input">
+                    <button onclick="searchPlayers()" class="search-btn">Search</button>
+                </div>
+            </div>
+
+            <div id="playersLoading" class="loading" style="display: none;">Loading players...</div>
+            <div id="playersError" class="error" style="display: none;"></div>
+            <div id="playerStats" class="player-stats"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
